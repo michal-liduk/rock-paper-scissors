@@ -96,6 +96,6 @@ class RockPaperScissors:
 
     
     
-        
-game = RockPaperScissors()
-game.greetings()
+if __name__ == "__main__":
+    game = RockPaperScissors()
+    game.greetings()
